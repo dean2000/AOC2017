@@ -1,5 +1,3 @@
-from bs4 import BeautifulSoup
-import requests
 
 def func(num):
 	sum1 = ""
