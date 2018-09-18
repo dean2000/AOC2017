@@ -1,21 +1,21 @@
 
 file = open('input4.txt', 'r').read().split("\n")
 
-num = 0 
+sum_of_valids = 0 
 
 def Check_Words(sentence):
-	global num
+	global sum_of_valids
 	sentence = sentence.split(" ")
 	# print(sentence)
 	for word in sentence:
 		if sentence.count(word) > 1:
-			num -= 1
+			sum_of_valids -= 1
 			break
 		else:
-			num += 1
+			sum_of_valids += 1
 			break
 	
 for line in file:
 	Check_Words(line)
 
-print(f"There are {num} valid passphrases")
+print(f"There are {sum_of_valids} valid passphrases")
