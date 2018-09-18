@@ -1,0 +1,22 @@
+IPython 5.5.0 -- An enhanced Interactive Python.
+?         -> Introduction and overview of IPython's features.
+%quickref -> Quick reference.
+help      -> Python's own help system.
+object?   -> Details about 'object', use 'object??' for extra details.
+
+In [1]: import math
+
+In [2]: math.sqrt(361527)
+Out[2]: 601.2711534740379
+
+In [3]: 601**2
+Out[3]: 361201
+
+In [4]: 361527 - _
+Out[4]: 326
+
+In [5]: (301, -300 + 326)
+Out[5]: (301, 26)
+
+In [6]: 301 + 26
+Out[6]: 327
